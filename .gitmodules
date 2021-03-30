@@ -1,6 +1,3 @@
 [submodule "bilstm-aux"]
 	path = bilstm-aux
 	url = https://github.com/bplank/bilstm-aux
-[submodule "mtp"]
-	path = mtp
-	url = https://bitbucket.org/ahmetustunn/mtp/src/master/
