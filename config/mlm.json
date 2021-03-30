@@ -1,7 +1,7 @@
 {
     "Stack": {
-        "train_data_path": "data/stack/train.txt",
-        "validation_data_path": "data/stack/dev.txt",
+        "train_data_path": "/data/stack/train.txt",
+        "validation_data_path": "/data/stack/dev.txt",
         "max_sents": 100000,
         "tasks": {
             "mlm": {
@@ -11,8 +11,8 @@
         }
     },
     "JobStack": {
-        "train_data_path": "data/JobStack/train.conll",
-        "validation_data_path": "data/JobStack/dev.conll",
+        "train_data_path": "/data/JobStack/train.conll",
+        "validation_data_path": "/data/JobStack/dev.conll",
         "word_idx": 0,
         "tasks": {
             "Jobs": {
