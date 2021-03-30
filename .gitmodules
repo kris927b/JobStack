@@ -1,3 +1,6 @@
 [submodule "bilstm-aux"]
 	path = bilstm-aux
 	url = https://github.com/bplank/bilstm-aux
+[submodule "machamp"]
+	path = machamp
+	url = https://github.com/machamp-nlp/machamp
