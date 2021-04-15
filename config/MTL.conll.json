@@ -11,8 +11,8 @@
         }
     },
     "CoNLL": {
-        "train_data_path": "/data/CoNLL/train.conll",
-        "validation_data_path": "/data/CoNLL/dev.conll",
+        "train_data_path": "/data/conll/train.conll",
+        "validation_data_path": "/data/conll/dev.conll",
         "word_idx": 0,
         "tasks": {
             "conll": {

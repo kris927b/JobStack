@@ -11,8 +11,8 @@
         }
     },
     "I2B2": {
-        "train_data_path": "/data/I2B2/train.conll",
-        "validation_data_path": "/data/I2B2/dev.conll",
+        "train_data_path": "/data/i2b2/train.conll",
+        "validation_data_path": "/data/i2b2/dev.conll",
         "word_idx": 0,
         "tasks": {
             "i2b2": {
@@ -22,8 +22,8 @@
         }
     },
     "CoNLL": {
-        "train_data_path": "/data/CoNLL/train.conll",
-        "validation_data_path": "/data/CoNLL/dev.conll",
+        "train_data_path": "/data/conll/train.conll",
+        "validation_data_path": "/data/conll/dev.conll",
         "word_idx": 0,
         "tasks": {
             "conll": {
