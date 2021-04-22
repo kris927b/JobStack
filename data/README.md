@@ -19,17 +19,17 @@ For the scripts to work, you will need to have the following folder structure in
 ```
 .
 +-- README.md
-+-- CoNLL
++-- conll
 |   +-- train.conll
 |   +-- dev.conll
 +-- JobStack
 |   +-- train.conll
 |   +-- dev.conll
 |   +-- test.conll
-+-- I2B2
++-- i2b2
 |   +-- train.conll
 |   +-- dev.conll
-+-- Stack
++-- stack
 |   +-- train.txt
 |   +-- dev.txt
 ```
