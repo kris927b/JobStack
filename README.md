@@ -8,13 +8,13 @@ This repo contains submodules which contains the source code for structbilty (bi
 To clone all three repos (this + 2 submodules) use the following command:
 
 ```bash
-$ git clone --recurse-submodules https://github/nlpnorth/JobStack.git
+$ git clone --recurse-submodules https://github/kris927b/JobStack.git
 ```
 
 Or use these two commands:
 
 ```bash
-$ git clone https://github/nlpnorth/JobStack.git 
+$ git clone https://github/kris927b/JobStack.git 
 $ git submodule update --init --recursive
 ```
 
@@ -40,7 +40,7 @@ To run the experiments for Bilty...
 #### Creating transformer embeddings
 
 To run Bilty with static transformer embeddings, you have to create the specific embeddings in the data files. 
-To do so rnu either of the follwing commands, depending on your preferred BERT model. 
+To do so run either of the follwing commands, depending on your preferred BERT model. 
 
 ```bash
 MTL_SET = JobStack | conll | i2b2
