@@ -1,6 +1,6 @@
 # Data folder for JobStack
 
-In the JobStack paper we create our own data, which can be found here [NLPNorth.itu.dk](https://itu.dk).
+In the JobStack paper we create our own data, which can be acquired by contacting us.
 
 However, we also use Multi Task Learning to improve performance. For that we use two sepereate datasets.
 
@@ -10,7 +10,7 @@ However, we also use Multi Task Learning to improve performance. For that we use
 To access the I2B2/UTHealth data set, you will have to sign their Data Use Agreement (DUA).
 
 We also use a custom data set for our Masked Language Model experiments, which consists of many sentences collected from Stackoverflow job posts. 
-This data set can also be found at our website [NLPNorth.itu.dk](https://itu.dk).
+This data set can also be acquired by contacting us.
 
 ## Folder structure
 
