@@ -20,7 +20,7 @@ $ git submodule update --init --recursive
 
 ## Data set acquisition
 
-You can get the data set produced as part of the paper by signing our DUA here: [NLPNorth.itu.dk](https://itu.dk)
+You can get the data set produced as part of the paper by contacting us, either here on Github or by email. 
 
 
 ## Running the code
@@ -149,7 +149,7 @@ $ bash scripts/mtp.MTL.overflow.sh $MTL_DATA_SET $PATH_TO_DATA $PATH_TO_CONFIG $
 
 #### Masked Language Model
 
-The lask experiment is the Masked language model. To perform this experiment you will have to get the data from our website [NLPNorth.itu.dk](https://itu.dk), this is also described in `data/README.md`.
+The lask experiment is the Masked language model. To perform this experiment you will have to get the data by contacting us, this is also described in `data/README.md`.
 Else, to run the experiments you should just do like below. 
 
 ```bash
