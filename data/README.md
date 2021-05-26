@@ -10,7 +10,7 @@ However, we also use Multi Task Learning to improve performance. For that we use
 To access the I2B2/UTHealth data set, you will have to sign their Data Use Agreement (DUA).
 
 We also use a custom data set for our Masked Language Model experiments, which consists of many sentences collected from Stackoverflow job posts. 
-This data set can also be acquired by contacting us.
+This data set can also be acquired by filling out this form https://forms.gle/ZnTSdCn2AmTYimys9.
 
 ## Folder structure
 
