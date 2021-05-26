@@ -20,7 +20,7 @@ $ git submodule update --init --recursive
 
 ## Data set acquisition
 
-You can get the data set produced as part of the paper by contacting us, either here on Github or by email. 
+You can get the data set produced as part of the paper by contacting us by email. 
 
 
 ## Running the code
