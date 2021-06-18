@@ -14,5 +14,5 @@ docker run --gpus '"'device=$CUDA_VISIBLE_DEVICES'"' --ipc=host --rm \
     --mount src=$CONFIG_DIR,dst=/config,type=bind \
     --mount src=$LOGS_DIR,dst=/logs,type=bind \
     -w /machamp kris927b/jobstack:latest \
-    bash -c "python train.py --dataset_config /config/ner.json --parameters_config /config/overflow.$c.json --device 0 --name finetune.overflow.noCRF.$c"
+    bash -c "python train.py --dataset_config /config/ner.json --parameters_config /config/overflow.$c.json --device 0 --name finetune.overflow.CRF.$c"
 done
