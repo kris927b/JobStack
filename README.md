@@ -121,14 +121,16 @@ To train and test MaChAmp on only JobStack use one of these two commands.
 The first uses BERT<sub>Base</sub> as its transformer model. 
 The second uses BERT<sub>Overflow</sub> as its transformer model. 
 Both of them finetunes the transformer model during training.
+To use CRF specify it in the first parameter. 
 
 ```bash
 ### Only JobStack ###
+CRF = crf | nocrf
 # BERT Base
-$ bash scripts/mtp.finetune.bert.sh $PATH_TO_DATA $PATH_TO_CONFIG $PATH_TO_LOGS 
+$ bash scripts/mtp.finetune.bert.sh $CRF $PATH_TO_DATA $PATH_TO_CONFIG $PATH_TO_LOGS 
 
 # BERT Overflow
-$ bash scripts/mtp.finetune.overflow.sh $PATH_TO_DATA $PATH_TO_CONFIG $PATH_TO_LOGS 
+$ bash scripts/mtp.finetune.overflow.sh $CRF $PATH_TO_DATA $PATH_TO_CONFIG $PATH_TO_LOGS 
 ```
 
 #### Multi Task Learning
